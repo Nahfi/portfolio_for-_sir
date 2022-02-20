@@ -1,0 +1,663 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/*=================================
+                        common css start
+==================================*/
+body.dark {
+  color: #f8f8f2;
+  background: #282a36 !important;
+}
+.dark #skill {
+  background-color: #232531 !important;
+}
+.dark #public {
+  background-color: #232531 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:hover {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/*=================================
+                        common css start
+==================================*/
+
+/*=================================
+                        header-menu css start
+==================================*/
+.menu {
+}
+.menu ul li a {
+  padding: 0 !important;
+  font-size: 16px;
+  line-height: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding: 0 10px !important;
+  color: #34495e;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  position: relative;
+}
+.menu ul li a::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom: 20px;
+  left: 11px;
+  background-color: #1b473a;
+
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+.menu ul li a:hover::after {
+  width: 36%;
+}
+.menufix {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+.menu ul li a:hover {
+  color: #22775e !important;
+}
+.menu ul li .active {
+  color: #700939 !important;
+  position: relative;
+}
+.menu ul li .active::after {
+  position: absolute;
+  content: "";
+  width: 36%;
+  height: 2px;
+  bottom: 20px;
+  left: 11px;
+  background-color: #1b473a;
+
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+.menu_shad {
+  background: #fff;
+  box-shadow: 0 0.125rem 0.25rem 0 rgba(0, 0, 0, 0.11);
+}
+
+.menu {
+  min-height: 70px !important;
+}
+
+.theme_color i {
+  font-size: 16px;
+  line-height: 70px;
+
+  font-weight: 400;
+  color: #34495e;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+.theme_color i:hover {
+  color: #22775e;
+  cursor: pointer;
+}
+
+.them_color {
+  position: relative;
+}
+
+.two {
+  position: absolute;
+  right: 16px;
+  top: 0;
+}
+.cen {
+  justify-content: center;
+}
+
+/*=================================
+                        header-menu css end
+==================================*/
+
+/*=================================
+                        break
+==================================*/
+
+/*=================================
+                      about  css start
+==================================*/
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.photo img {
+  border-radius: 50%;
+}
+
+.photo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.dark #about .text_one h2 {
+  color: #fff;
+}
+.dark #about .mid p {
+  color: #fff;
+}
+.text_one h2 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #000;
+  margin: 15px 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.text_one h3 {
+  font-size: 20px;
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.text_one h3 a {
+  color: #22775e;
+}
+
+.text_one h3 a:hover {
+  text-decoration: underline !important;
+}
+
+.icon ul li a {
+  font-size: 2rem;
+  color: #22775e;
+  margin-right: 12px;
+  transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+}
+
+.icon ul li a :hover {
+  transform: scale(1.3);
+}
+
+.head h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #313131;
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.mid p {
+  line-height: 30px;
+  font-size: 23px;
+  font-weight: 400;
+  color: #313131;
+  margin-bottom: 12px;
+}
+
+.mid p a {
+  color: #22775e;
+}
+
+.mid p a:hover {
+  text-decoration: underline !important;
+}
+
+.bott {
+  margin-top: 29px;
+}
+
+.bott h3 {
+  font-size: 25px;
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #313131;
+  margin-bottom: 8px;
+}
+
+.bt ul li {
+  list-style-type: square;
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #313131;
+  margin-bottom: 8px;
+}
+
+.bt ul {
+  margin-left: 28px;
+}
+
+.bt2 li i {
+  font-size: 20px;
+}
+
+.bt2 {
+  position: relative;
+}
+
+.bt2 li i {
+  position: absolute;
+  top: 7px;
+}
+
+.bt2 li {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.description .course {
+  font-size: 18px;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #313131;
+}
+
+.description .institution {
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 16px;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+/*=================================
+                      about  css end
+==================================*/
+/*=================================
+                      skill  css start
+==================================*/
+
+#skill {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+
+.sk h2 {
+  color: #1a1919cf;
+  font-size: 40px;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.txt p {
+  margin-top: 12px;
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 16px;
+  font-weight: 400 !important;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 25px;
+}
+
+.poss {
+  position: relative;
+}
+
+.per {
+  position: absolute;
+  right: 2%;
+  top: 4px;
+  font-size: 26px;
+  color: #fff;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+}
+
+.ctxt {
+  float: left;
+}
+
+.counter {
+  font-family: playfair display, sans-serif;
+  font-size: 30px;
+  color: #fff;
+  font-weight: 900;
+  padding: 2px 14px;
+  background-color: #22775e;
+  width: 95px;
+  height: 75px;
+  margin-left: auto;
+  line-height: 70px;
+  margin-top: 5px;
+  transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+  text-align: center;
+}
+
+.ctxt h4 {
+  font-size: 25px;
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #313131;
+  margin-bottom: 8px;
+}
+
+.ctxt p {
+  color: rgba(0, 0, 0, 0.507);
+  font-size: 16px;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.counter:hover {
+  background-color: #34495e;
+  transform: scale(1.3);
+}
+
+.counter:hover r p {
+  transform: scale(1.3);
+}
+
+/*==================================
+                      skill  css end
+==================================*/
+
+/*==================================
+                      project  css start
+==================================*/
+#project {
+  padding: 80px 0;
+}
+
+.nav_tabs .nav li button {
+  padding: 0;
+  color: #fff;
+  line-height: 40px;
+  padding: 0 12px;
+}
+
+.nav_tabs .nav {
+  height: 40px;
+}
+.nav_tabs .nav li:hover {
+  background: #3cc59c;
+  color: #fff;
+}
+.nav_tabs .nav li:hover button {
+  /* background: #3cc59c; */
+  color: #fff;
+}
+.nav_tabs .nav li {
+  line-height: 40px;
+  background: #288b6e;
+  color: #fff !important;
+  font-size: 17px;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav_tabs ul li {
+}
+
+.nav_tabs .nav ul li:nth-child(1) {
+}
+
+.nav_tabs .nav li:nth-child(3) {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.nav_tabs .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #0b2b21;
+  /* border: 5px solid #288b6e; */
+}
+.nav_tabs .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link:nth-child(1) {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.nav_tabs .nav-pills .nav-link.active {
+  border: 1px solid #22775e;
+}
+.cls ul li {
+  width: 100%;
+}
+.headd .hr h4 {
+  font-size: 25px;
+  font-weight: 700 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #313131;
+  margin-bottom: 1px !important;
+}
+.par p {
+  font-size: 17px;
+  font-weight: 400;
+
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #313131;
+}
+.dark .btrn a {
+  border: 1px solid #fff;
+}
+.btrn a {
+  line-height: 20px;
+  padding: 0 8px;
+  font-weight: 400 !important;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #22775e;
+  border: 1px solid #0b2b21;
+  margin-bottom: 1px !important;
+  border-radius: 3px;
+  margin-right: 4px;
+  transition: all linear 0.5s;
+  -moz-transition: all linear 0.5s;
+  -webkit-transition: all linear 0.5s;
+  -o-transition: all linear 0.5s;
+  -ms-transition: all linear 0.5s;
+}
+.btrn a i {
+  margin-right: 3px;
+}
+.btrn a:hover {
+  background: #22775e;
+  color: #fff !important;
+}
+.headd {
+  margin-bottom: 10px;
+}
+.dark .sk h2 {
+  color: #fff !important;
+}
+.dark .headd .hr h4 {
+  color: #fff !important;
+}
+.dark .par p {
+  color: #f7f7f7;
+}
+.dark .bott h3 {
+  color: #fff;
+}
+.dark .bt ul li {
+  color: #f7f7f7;
+}
+.dark .description .course {
+  color: #f7f7f7;
+}
+.dark .head h1 {
+  color: #f7f7f7;
+}
+.dark .txt p {
+  color: #f7f7f7;
+}
+.dark .ctxt h4 {
+  color: #fff;
+}
+.dark .ctxt p {
+  color: #f7f7f7;
+}
+/*==================================
+                      project   css end
+==================================*/
+/*==================================
+                      back to top    css start
+==================================*/
+.btop {
+  position: fixed;
+  bottom: 13px;
+  right: 13px;
+  width: 30px;
+  height: 30px;
+  background: #19332b;
+  cursor: pointer;
+  text-align: center;
+}
+.btop i {
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+/*==================================
+                      back to top    css end
+==================================*/
+/*==================================
+                   publications   css start
+==================================*/
+#public {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+.uper p a {
+  color: #22775e;
+  font-size: 21px;
+  font-weight: 500;
+
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.uper p a:hover {
+  text-decoration: underline;
+}
+
+.uper p a i:hover {
+  text-decoration: none !important;
+}
+.uper p a i {
+  font-size: 17px !important;
+  color: #1b473a !important;
+  margin-right: 6px !important;
+}
+.des a {
+  font-size: 15px;
+  font-weight: 400;
+  /* margin-bottom: 8px; */
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #313131;
+}
+.dark .des a {
+  color: #fff !important;
+}
+.des a:hover {
+  text-decoration: underline;
+  color: #288b6e;
+}
+/*==================================
+                      publications   css end
+==================================*/
+/*==================================
+                      footer   css end
+==================================*/
+#foot {
+  padding: 80px 0;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.footi span a {
+  color: #22775e;
+
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.footi span a:hover {
+  text-decoration: underline;
+}
+/*==================================
+                      footer   css end
+==================================*/

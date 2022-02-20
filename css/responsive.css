@@ -1,0 +1,153 @@
+@media (max-width: 575px) {
+}
+@media (max-width: 575px) {
+}
+@media (max-width: 575px) {
+}
+@media (max-width: 575px) {
+}
+@media (min-width: 576) and (max-width: 667px) {
+}
+
+/* xtra small device */
+@media (max-width: 575px) {
+  .navbar-toggler:focus {
+    /* text-decoration: none; */
+    outline: 0;
+    box-shadow: none;
+  }
+  .menu ul {
+    justify-content: center;
+    text-align: center;
+  }
+  #head {
+    background-color: #0c3a4d5e;
+  }
+  .menu ul li .active::after {
+    width: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 9px;]
+ t
+  }
+  .menu ul li a::after {
+    position: absolute;
+    content: "";
+    width: 0;
+  }
+  .menu ul li a:hover::after {
+    width: 0%;
+  }
+  .menu ul li a {
+    line-height: 48px;
+  }
+  .theme_color i {
+    line-height: 48px;
+    color: #fff;
+  }
+  .one {
+    text-align: center;
+    color: #fff;
+  }
+  .two {
+    text-align: center;
+    color: #fff;
+  }
+  .two {
+    position: absolute;
+    right: 48%;
+    top: 9px;
+    transform: translateX(-50%);
+  }
+  .head h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mid p {
+    font-size: 15px;
+  }
+  .text_one h2 {
+    font-size: 28px;
+  }
+  .text_one h3 {
+    font-size: 18px;
+  }
+  .text_one h3 {
+    font-size: 17px;
+  }
+  .counter {
+    font-size: 24px;
+    width: 87px;
+    height: 62px;
+    margin-left: auto;
+    line-height: 56px;
+    margin-top: 8px;
+    margin: 0 auto;
+  }
+  .ctxt h4 {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .ctxt {
+    float: none;
+  }
+
+  .ctxt p {
+    /* color: rgba(0, 0, 0, 0.507); */
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .per {
+    right: 42%;
+    top: -9px;
+    color: #fff;
+  }
+  .bott h3 {
+    font-size: 22px;
+    margin-top: 16px;
+    margin-bottom: 19px;
+    text-align: center;
+  }
+  .bt2 {
+    margin-bottom: 8px;
+  }
+  .bt ul li {
+    font-size: 15px;
+
+    margin-bottom: 8px;
+  }
+  .description .course {
+    font-size: 15px;
+  }
+  .description .institution {
+    font-size: 14px;
+  }
+  .sk h2 {
+    margin-bottom: 21px;
+  }
+  .btrn {
+    margin-bottom: 10px;
+  }
+  .par p {
+    font-size: 15px;
+
+    margin-bottom: 12px;
+  }
+  .headd .hr h4 {
+    margin-bottom: 6px !important;
+  }
+  .sk h2 {
+    font-size: 36px;
+  }
+  .uper p a {
+    font-size: 19px;
+  }
+  .des a {
+    font-size: 14px;
+  }
+  .des {
+    margin-bottom: 10px;
+  }
+}
